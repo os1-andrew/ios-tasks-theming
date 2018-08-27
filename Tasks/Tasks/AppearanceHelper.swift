@@ -11,7 +11,7 @@ import UIKit
 enum Appearance {
     static let light = UIColor(displayP3Red: 0.4, green: 0.6, blue: 0.6, alpha: 1.0)
     static let dark = UIColor(displayP3Red: 0.333, green: 0.153, blue: 0, alpha: 1.0)
-    static let lightblue = UIColor(displayP3Red: 0.53, green: 0.40, blue: 0.84, alpha: 1)
+    static let lightblue = UIColor(displayP3Red: 196/255, green: 223/255, blue: 230/255, alpha: 1)
     static func setTheme(){
         
         UINavigationBar.appearance().barTintColor = light
@@ -28,7 +28,7 @@ enum Appearance {
         UITextField.appearance().tintColor = dark
         UITextView.appearance().tintColor = dark
         
-        
+        UILabel.appearance().textColor = dark
         
     }
     
