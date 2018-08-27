@@ -19,6 +19,9 @@ enum Appearance {
         UISegmentedControl.appearance().tintColor = dark
        
         let textAttributes =  [NSAttributedStringKey.foregroundColor : dark]
+        UINavigationBar.appearance().largeTitleTextAttributes = textAttributes
+        
+        
         UINavigationBar.appearance().titleTextAttributes = textAttributes
         
         UITableView.appearance().backgroundColor = light
